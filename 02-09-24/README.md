@@ -11,8 +11,8 @@
 
 #### HTML
 
-- Hypertext is a fancy way of saying the text is linked to other things like other text, pages, websites, etc.
-- A markup language is used to present information whereas programming language is used to give instructions to a computer.
+- Hypertext is a fancy way of saying the text is linked to some other thing like text, pages, websites, etc.
+- A markup language is used to present information whereas programming language is used to give instructions to the computer.
 
 #### tags vs elements
 
