@@ -5,10 +5,6 @@
 >
 > — [Kevin Powell](https://www.youtube.com/@KevinPowell)
 
-#### Deployed Netlify Link
-
-[First session](https://pravin-ahy-sessions.netlify.app/)
-
 #### HTML
 
 - Hypertext is a fancy way of saying the text is linked to some other thing like text, pages, websites, etc.
