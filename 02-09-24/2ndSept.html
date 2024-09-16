@@ -3,9 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML completion</title>
+    <link rel="shortcut icon" href="./img/html-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML session</title>
 </head>
 <body>
-    <!-- TODO: Paste the 2nd Sept session on completion. -->
+    <h1>2 + 2</h1>
+
+    <hr>
+
+    <img width="700" src="img/attribute-lang.png" alt="lang attribute demonstration">
+
+    <hr>
+
+    <div class="tooltip-container">
+        <p>
+            title="Show some additional information"
+        </p>
+        <button title="Show some additional information">Hover here</button>
+    </div>
+
+    <hr>
+
+    <div class="html-text-formatting-1">
+        <strong>A text wrapped within strong.</strong>
+        <em>A text wrapped within em.</em>
+    </div>
+
+    <hr>
+
+    <div class="html-text-formatting-1">
+        <b>A text looking similar to strong.</b>
+        <i>A text looking similar to em.</i>
+    </div>
+
+    <hr>
+
+    <div class="html-text-formatting-2">
+        <p>
+            H<sub>2</sub> + O<sub>2</sub> => H<sub>2</sub>0
+        </p>
+        <p>
+            (a+b)<sup>2</sup> => a<sup>2</sup> + b<sup>2</sup> + 2ab
+        </p>
+    </div>
+
+    <hr>
+
+    <div>
+        <p>A regular
+
+
+            paragraph element ignores spaces and
+            line-breaks!
+        </p>
+        <pre>Unlike the above paragraph
+
+
+            this time the line-breaks                       and spaces are visible...
+        </pre>
+    </div>
+
+    <hr>
+
+    <form>
+        <legend>A poorly accessible form:</legend>
+        <br>
+
+        <div class="inputs-container">
+            <div>
+                <label>Mathematics</label>
+                <input type="radio" name="subject-1">
+            </div>
+            <div>
+                <label>History</label>
+                <input type="radio" name="subject-1">
+            </div>
+            <div>
+                <label>Physics</label>
+                <input type="radio" name="subject-1">
+            </div>
+        </div>
+    </form>
+
+    <form>
+        <legend>A better accessible form:</legend>
+        <br>
+
+        <div class="inputs-container">
+            <div>
+                <label for="math">Mathematics</label>
+                <input type="radio" id="math" name="subject-2">
+            </div>
+            <div>
+                <label for="hist">History</label>
+                <input type="radio" id="hist" name="subject-2">
+            </div>
+            <div>
+                <label for="phy">Physics</label>
+                <input type="radio" id="phy" name="subject-2">
+            </div>
+        </div>
+    </form>
+
+    <hr>
+
+    <div class="html-symbols-container">
+        <span>&copy;</span>
+        <span>&trade;</span>
+        <span>&larr;</span>
+        <span>&#9776;</span>
+    </div>
+
+    <hr>
+
+    <img width="700" src="img/favicon-link.png" alt="favicon code demonstration">
+
+    <hr>
+
 </body>
 </html>

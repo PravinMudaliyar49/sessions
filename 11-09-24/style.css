@@ -1,0 +1,38 @@
+body>* {
+    margin: 4rem 1rem;
+}
+
+.size {
+    width: 10rem;
+    height: 10rem;
+}
+
+/* Snippet 1 */
+#first_snippet_id {
+    background-color: lime;
+}
+.first_snippet_div.first_snippet_div.first_snippet_div.first_snippet_div.first_snippet_div.first_snippet_div.first_snippet_div.first_snippet_div.first_snippet_div.first_snippet_div.first_snippet_div {
+    background-color: blue;
+}
+
+/* Snippet 2 */
+.second_snippet_div p {
+    color: red;
+}
+.second_snippet_para {
+    color: green;
+}
+
+/* Snippet 3 */
+.third_snippet_parent {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.third_snippet_first_div {
+    background-color: red;
+    opacity: .5;
+}
+.third_snippet_second_div {
+    background-color: rgba(255, 0, 0, 0.5);
+}
